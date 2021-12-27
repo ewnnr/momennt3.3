@@ -1,0 +1,13 @@
+GET http://localhost:3000/courses
+
+###
+GET http://localhost:3000/courses/61c44f49e1f8e0a5ba952765
+
+###
+POST http://localhost:3000/courses
+Content-Type: application/json
+
+{ "courseId": "DT080G", "courseName": "Självständigt arbete", "coursePeriod": "4" }
+
+###
+DELETE http://localhost:3000/courses/61c452978d8c66b38440ce3c

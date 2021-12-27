@@ -1,0 +1,15 @@
+/* Minimal styling för klientsidan */
+
+body {
+    max-width: 1920px;
+}
+
+#output {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td {
+    display: table-cell;
+    width: 450px;
+    height: 30px;
+}
